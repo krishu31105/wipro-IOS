@@ -1,0 +1,62 @@
+# Swift Fundamentals: Variables and Constants
+
+## Topic 2 – Guided Activity
+
+### Student Profile Card
+
+This project demonstrates the basic concepts of Swift programming using a student profile card. It covers constants, variables, type inference, type annotation, string interpolation, and compiler errors related to mutability.
+
+## Learning Objectives
+
+- Declare constants using `let`.
+- Declare variables using `var`.
+- Understand type inference and explicit type annotation.
+- Use string interpolation to display values.
+- Update mutable values using assignment operators.
+- Understand why constants cannot be reassigned.
+- Verify data types using `type(of:)`.
+
+## Concepts Covered
+
+| Concept | Description |
+|---|---|
+| `let` | Declares a constant whose value cannot be reassigned. |
+| `var` | Declares a variable whose value can change. |
+| `Int` | Represents integer values. |
+| `Double` | Represents decimal numbers. |
+| `Bool` | Represents `true` or `false`. |
+| String interpolation | Inserts values into strings using `\(value)`. |
+| `type(of:)` | Checks the type of a value. |
+
+## Sample Output
+
+```text
+Name: Asha, Roll: 2301, Semester: 5
+Name: Asha, Roll: 2301, Semester: 6, CGPA: 8.7
+String
+Int
+Int
+Double
+Bool
+```
+
+## Key Learnings
+
+1. Constants are used for values that should not be reassigned.
+2. Variables allow values to be updated during program execution.
+3. Swift can infer types from assigned values.
+4. Explicit type annotations make the intended type clear.
+5. The compiler identifies invalid assignments and type mismatches.
+
+## Tools Used
+
+- Swift
+- Xcode Playground
+
+## Author
+
+Add your name here.
+
+---
+
+*This project was created as part of learning Swift programming fundamentals.*
