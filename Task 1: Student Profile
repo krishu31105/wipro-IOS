@@ -1,0 +1,34 @@
+
+import Foundation
+
+// MARK: - Student Profile Card
+
+// Constants: values that do not change
+let studentName = "Asha"
+let rollNumber: Int = 2301
+let isHosteller = true
+
+// Variables: values that can change
+var semester: Int = 5
+var cgpa: Double = 8.5
+
+// Display the initial student profile
+print("Name: \(studentName), Roll: \(rollNumber), Semester: \(semester)")
+
+// Update the semester and CGPA
+semester += 1
+cgpa = 8.7
+
+// Display the updated student profile
+print("Name: \(studentName), Roll: \(rollNumber), Semester: \(semester), CGPA: \(cgpa)")
+
+// Uncomment the following line to observe the compiler error.
+// studentName = "Rahul"
+// Error: Cannot assign to value: 'studentName' is a 'let' constant
+
+// Check the inferred and explicitly declared types
+print(type(of: studentName))  // String
+print(type(of: rollNumber))   // Int
+print(type(of: semester))     // Int
+print(type(of: cgpa))         // Double
+print(type(of: isHosteller))  // Bool
